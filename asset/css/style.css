@@ -1,0 +1,173 @@
+/* ******************************
+contact form style start
+****************************** */
+
+.contact-from {
+  top: 5rem !important;
+  bottom: 5rem;
+}
+.form-control {
+  border-radius: 50px !important;
+  /* border: 1px solid #b8bbc677; */
+  box-shadow: rgb(0 0 0 / 7%) 0px 3px 15px, rgb(0 0 0 / 10%) 0px 5px 10px;
+  border: none;
+  background-color: #0404040d;
+  /* box-shadow: rgb(0 0 0 / 4%) 0px 1px 2px, rgb(0 0 0 / 4%) 0px 2px 4px,
+    rgb(0 0 0 / 4%) 0px 4px 8px, rgb(0 0 0 / 4%) 0px 8px 16px,
+    rgb(0 0 0 / 4%) 0px 10px 15px, rgb(0 0 0 / 4%) 0px 4px 10px; */
+}
+.form-group {
+  margin-bottom: 25px;
+}
+.form-group .control-label {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: none;
+  color: #787a80 !important;
+  margin-left: 1.2rem;
+}
+.form-group .message_text {
+  min-height: 12rem;
+  border-radius: 10px !important;
+}
+.form-group .address_text {
+  min-height: 8rem;
+  border-radius: 10px !important;
+}
+.form-group .highlight {
+  color: red;
+}
+.submit_button {
+  text-align: center;
+  border-radius: 20px;
+}
+.submit_button .btn {
+  border-radius: 10px;
+  background: var(--base-color);
+  color: white;
+}
+.submit_button .btn:hover {
+  background: var(--base-gradient);
+  transition: all 0.5s;
+  color: white;
+}
+
+.agent_heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 5rem;
+}
+.content-page .left-panel {
+  top: 0 !important;
+  padding: 40px 15px 0px 15px !important;
+  background-color: #ffff;
+  position: relative;
+  width: 100%;
+}
+.content-page .static-content-page .content-top {
+  margin: 0 auto;
+  padding-left: 19px !important;
+  display: flex;
+  width: 100%;
+}
+.info {
+  margin: 30px 0px 20px 4px;
+}
+
+.left_img img {
+  border-radius: 15px;
+  margin-top: 15rem;
+}
+.container__full {
+  width: 100%;
+}
+
+/* left side info style start */
+
+/* @media (min-width: 1024px)  */
+
+.container {
+  /* width: 1400px; */
+  width: 100%;
+}
+
+.left_side_info {
+  background: #008260;
+  margin-top: 180px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 32px 0px;
+}
+.form_section_head {
+  margin-top: 10px;
+  display: flex;
+  overflow: hidden;
+  padding: 20px 0px 20px 30px;
+}
+.form_section_head .icon_img img {
+  height: 30px;
+}
+.section_title .title {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  margin-left: 10px;
+}
+.section_middle {
+  display: flex;
+  overflow: hidden;
+}
+.section_content {
+  text-align: center;
+  padding: 30px;
+  display: flex;
+}
+.horizontal_line {
+  border: 1px solid black;
+  height: 70px;
+  margin-top: 40px;
+}
+.section_content .section_content_img img {
+  height: 50px;
+}
+.section_content_text {
+  color: white;
+  margin-left: 20px;
+}
+.section_content_text .title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+/* left side info style end */
+/* get-in-tuch-form start */
+.get_in_touch_from {
+  margin-top: 180px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 5px rgb(9 9 9 / 20%);
+  padding: 30px;
+}
+
+.form_title {
+  margin: 5px 0px 20px 0px;
+}
+.form_title_text {
+  font-size: 28px;
+  font-weight: 900;
+  color: #008260;
+}
+
+.button {
+    color: #ffffff;
+    background: #008260;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+/* get-in-tuch-form end */
+
+/* ******************************
+contact form style end
+****************************** */
